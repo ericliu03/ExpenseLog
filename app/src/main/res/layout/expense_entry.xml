@@ -27,6 +27,7 @@
             android:layout_below="@id/entry_date_view"
             android:gravity="center_vertical"
             android:text="Example Description"
+            android:textColor="#212121"
             android:textSize="16sp" />
 
         <TextView

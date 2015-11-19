@@ -61,10 +61,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="top|start"
                 android:imeOptions="actionDone"
-                android:inputType="textMultiLine"
-                android:lines="3"
-                android:maxLines="10"
-                android:minLines="3"
+                android:inputType="textAutoComplete"
                 android:scrollbars="vertical"
                 android:windowSoftInputMode="stateHidden|adjustResize" />
         </LinearLayout>
