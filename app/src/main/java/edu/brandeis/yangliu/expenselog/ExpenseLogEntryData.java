@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class ExpenseLogEntryData implements Serializable {
-    private Date date;
+    private String date;
     private String description;
     private String note;
 
     public ExpenseLogEntryData(String description, String note) {
         this.description = description;
         this.note = note;
-        this.date = new Date();
+        this.date = new Date().toString();
     }
 
     public String getDescription() {
@@ -30,11 +30,11 @@ public class ExpenseLogEntryData implements Serializable {
         this.note = note;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return this.date;
     }
 
-    public void setTime(Date date) {
+    public void setTime(String date) {
         this.date = date;
     }
 }
