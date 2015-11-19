@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExpenseLog</string>
+    <string name="menu_option_1">Add Expense</string>
+    <string name="description">Description</string>
+    <string name="note">Note</string>
+    <string name="new_expense">New Expense</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
